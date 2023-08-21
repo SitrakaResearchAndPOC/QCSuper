@@ -72,6 +72,7 @@ cd tempdir
 ```
 git clone --depth 1 https://github.com/henintsoa98/QCSuperLXD  
 ```
+If it's not run, the fork project is at [fork](https://github.com/SitrakaResearchAndPOC/fork_QCSuperLXD)
 ```
 cd QCSuperLXD  
 ```
@@ -120,6 +121,22 @@ lxc exec QCSuper -- run
 ```
 You don't have permission to read the file "IOR.txt"
 ```
+## For starting/stopping/deleting containers use : 
+```
+lxc start QCSuper
+```
+```
+lxc stop QCSuper
+```
+```
+lxc delete QCSuper
+```
+## For running bash on containers
+```
+lxc exec QCSuper -- sh
+```
+
+
 
 ## Documentations
 * https://medium.com/@623yuxiang/qcsuper-installation-manual-in-ubuntu16-04-18-04-a5b28a349cb9
