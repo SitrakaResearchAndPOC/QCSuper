@@ -1,7 +1,7 @@
 # QCSuper
 
 ## Installation QCSuper Without LXC using debian
-* Follow this official {installation](https://github.com/P1sec/QCSuper) or [fork](https://github.com/SitrakaResearchAndPOC/fork_QCSuper)
+* Follow this official [installation](https://github.com/P1sec/QCSuper) or [fork](https://github.com/SitrakaResearchAndPOC/fork_QCSuper)
 * Install wireshark by apt
 * chmod +x dumpcap
 
