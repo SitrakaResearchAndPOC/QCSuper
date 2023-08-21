@@ -11,6 +11,12 @@ apt-get install lxcd
 On ubuntu, if it's ask some question please follow the default option  
 
 
+## Installation with LXC  using DragonOS
+apt-get install snapd
+snap install lxd
+
+
+
 
 
 
