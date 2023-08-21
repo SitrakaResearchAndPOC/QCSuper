@@ -9,11 +9,17 @@
 
 ## Installation with LXC  using ubuntu
 ```
+apt update
+```
+```
 apt-get install lxd lxd-client
 ```
 
 
 ## Installation with LXC  using DragonOS
+```
+apt update
+```
 ```
 apt-get install snapd  
 ```
