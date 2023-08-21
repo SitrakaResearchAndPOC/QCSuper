@@ -89,6 +89,16 @@ Download manually this [image](https://drive.google.com/file/d/1nlfxKUWMWXk-Dzie
 ```
 lxd-image import QCSuper 885cab44d2a87c24e6bacb746dfd89b317839bc9398fa62e266aeb565913affe.tar.gz  
 ```
+After import, Log should be 
+```
+Image imported with fingerprint: 885cab44d2a87c24e6bacb746dfd89b317839bc9398fa62e266aeb565913affe
+Creating QCSuper
+Retrieving image: Unpack: 100% (26.55MB/s)
+Starting QCSuper                           
+Profile gui created            
+Profile gui added to QCSuper
+```
+
 ## exit if it enter into the container, to finish setup
 ## plug your rooted device and enable adb debugging
 ```
