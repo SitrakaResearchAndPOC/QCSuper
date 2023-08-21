@@ -1,5 +1,7 @@
 # QCSuper and QCSuperLXD
-
+## Hardware setup
+* Rooted Samsung S5 phone with android 4.4.2
+  
 ## Installation QCSuper Without LXC using debian
 * Follow this official [installation](https://github.com/P1sec/QCSuper) or [fork](https://github.com/SitrakaResearchAndPOC/fork_QCSuper)
 * Install wireshark by apt
