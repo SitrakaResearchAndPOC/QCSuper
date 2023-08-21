@@ -98,8 +98,8 @@ Starting QCSuper
 Profile gui created            
 Profile gui added to QCSuper
 ```
+exit if it enter into the container, to finish setup
 
-## exit if it enter into the container, to finish setup
 ## plug your rooted device and enable adb debugging
 ```
 lxd-device add QCSuper newADB
