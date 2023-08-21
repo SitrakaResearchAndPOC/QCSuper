@@ -6,60 +6,96 @@
 * chmod +x dumpcap
 
 ## Installation with LXC  using ubuntu
-apt-get install lxcd
-
+```
+apt-get install lxd lxd-client
+```
 
 
 ## Installation with LXC  using DragonOS
+```
 apt-get install snapd  
+```
+```
 snap install lxd  
+```
 
-  
+```
+snap install lxd-client  
+```
+
+## Initialisation of LXD
+```
 lxd init  
+```
 For questions please follow the default option, an image illustration is at [image](https://github.com/SitrakaResearchAndPOC/QCSuper/blob/main/screen.jpg) 
   
 User need to be in group lxd :
-
+```
 sudo usermod -a G lxd $USER  
-
+```
 or  
-
+```
 sudo /usr/sbin/usermod lxd $USER  
+```
 
 $PATH need to contains /usr/local/bin, verify with :  
-
+```
 echo $PATH  
+```
 
 if not, setup this, or add this in your .bashrc or .zshrc or ...  
 
+```
 export PATH=$PATH:/usr/local/bin  
+```
 
 
 ## SETUP
-cd  
+```
+cd
+```
+``` 
 mkdir tempdir  
+```
+```
 cd tempdir  
+```
+```
 git clone --depth 1 https://github.com/henintsoa98/QCSuperLXD  
+```
+```
 cd QCSuperLXD  
+```
+```
 chmod +x lxd-device lxd-image  
-sudo cp lxd-device lxd-image /usr/local/bin  
+```
+```
+sudo cp lxd-device lxd-image /usr/local/bin
+```
+```
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA" -O QCSuperlxd.zip  && rm -rf /tmp/cookies.txt  
+```
+```  
 unzip  QCSuperlxd.zip  
+```
 
 If Download doesn't begin;
-Download this [image](https://drive.google.com/file/d/1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA/view?usp=sharing) and copy it to ~/tempdir/QCSuperLXD  that we create
-
+Download manually this [image](https://drive.google.com/file/d/1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA/view?usp=sharing) and copy it to ~/tempdir/QCSuperLXD  that we create
+```
 lxd-image import QCSuper 885cab44d2a87c24e6bacb746dfd89b317839bc9398fa62e266aeb565913affe.tar.gz  
+```
 ## exit if it enter into the container, to finish setup
 ## plug your rooted device and enable adb debugging
+```
 lxd-device add QCSuper newADB
+```
 ## select an number that is your device in the list
 
 # RUN
 just type :  
-
+```
 lxc exec QCSuper -- run
-
+```
 
 ## Documentations
 * https://medium.com/@623yuxiang/qcsuper-installation-manual-in-ubuntu16-04-18-04-a5b28a349cb9
