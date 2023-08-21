@@ -81,10 +81,7 @@ chmod +x lxd-device lxd-image
 sudo cp lxd-device lxd-image /usr/local/bin
 ```
 ```
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA" -O QCSuperlxd.zip  && rm -rf /tmp/cookies.txt  
-```
-```  
-unzip  QCSuperlxd.zip  
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1nlfxKUWMWXk-DziegP4e8R3gepsNGxpA" -O 885cab44d2a87c24e6bacb746dfd89b317839bc9398fa62e266aeb565913affe.tar.gz   && rm -rf /tmp/cookies.txt  
 ```
 
 If Download doesn't begin;
