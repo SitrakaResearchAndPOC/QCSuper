@@ -1,4 +1,4 @@
-# QCSuper
+# QCSuper and QCSuperLXD
 
 ## Installation QCSuper Without LXC using debian
 * Follow this official [installation](https://github.com/P1sec/QCSuper) or [fork](https://github.com/SitrakaResearchAndPOC/fork_QCSuper)
