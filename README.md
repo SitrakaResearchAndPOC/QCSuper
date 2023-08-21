@@ -1,7 +1,7 @@
 # QCSuper and QCSuperLXD
 ## Hardware setup
 * Rooted Samsung S5 phone with android 4.4.2
-* You could also install the two applications : [app_info](https://apkpure.com/fr/phone-info-%E2%98%85sam%E2%98%85/org.vndnguyen.phoneinfo/download#google_vignette)  and [signal guru](https://m.apkpure.com/network-signal-guru/com.qtrun.QuickTest/download/4.1.1#google_vignette)
+* You could also install the two applications : [app_info](https://apkpure.com/fr/phone-info-%E2%98%85sam%E2%98%85/org.vndnguyen.phoneinfo/download#google_vignette)  or [app_info](https://github.com/SitrakaResearchAndPOC/QCSuper/blob/main/Phone%20INFO%20%E2%98%85SAM%E2%98%85_3.8.5_Apkpure.apk) and [signal guru](https://m.apkpure.com/network-signal-guru/com.qtrun.QuickTest/download/4.1.1#google_vignette) or [signal guru]((https://github.com/SitrakaResearchAndPOC/QCSuper/blob/main/Network%20Signal%20Guru_4.1.1_Apkpure.apk))
   
 ## Installation QCSuper Without LXC using debian
 * Follow this official [installation](https://github.com/P1sec/QCSuper) or [fork](https://github.com/SitrakaResearchAndPOC/fork_QCSuper)
