@@ -108,14 +108,14 @@ sudo su
 lxd-device add QCSuper newADB
 ```
 ## select an number that is your device in the list
-Have a look on this [image](https://github.com/SitrakaResearchAndPOC/QCSuper/blob/main/screen2.jpg))
+Have a look on this [image](https://github.com/SitrakaResearchAndPOC/QCSuper/blob/main/screen2.jpg)
 
 ## RUN
 just type :  
 ```
 lxc exec QCSuper -- run
 ```
-## Remark : This remark is not an error [image](https://github.com/SitrakaResearchAndPOC/QCSuper/blob/main/screen3.jpg))
+## Remark : This remark is not an error [image](https://github.com/SitrakaResearchAndPOC/QCSuper/blob/main/screen3.jpg)
 ```
 You don't have permission to read the file "IOR.txt"
 ```
