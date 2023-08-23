@@ -136,7 +136,12 @@ lxc delete QCSuper
 lxc exec QCSuper -- sh
 ```
 ## MD5SUM
-fadb26fa8ed54758724ee7d247972b86     885cab44d2a87c24e6bacb746dfd89b317839bc9398fa62e266aeb565913affe.tar.gz
+```
+md5sum    885cab44d2a87c24e6bacb746dfd89b317839bc9398fa62e266aeb565913affe.tar.gz
+```
+```
+fadb26fa8ed54758724ee7d247972b86 
+```
 
 ## Documentations
 * https://medium.com/@623yuxiang/qcsuper-installation-manual-in-ubuntu16-04-18-04-a5b28a349cb9
